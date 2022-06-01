@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Desafio Bootstrap</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Nexo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="frecuentes.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trade
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Buy BTC</a></li>
+                      <li><a class="dropdown-item" href="#">Buy ETH</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Fees</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Borrow</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What is Nexo?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong><img src="https://support.nexo.io/hc/article_attachments/4407232869522/LinkedIn-Cover-1584x396.png" alt="nexo">
+                <br>
+                Nexo is the world's leading and most trusted lending institution in the digital finance industry. Since 2018 Nexo has strived to bring professional financial services to the world of digital assets. Leveraging the best of the team's years of experience in FinTech along with the power of blockchain technology, Nexo empowers millions of people to harness the value behind their crypto assets, shaping a new, better financial system.
+                <br>
+                Nexo currently manages assets for 4М+ users across 200 jurisdictions.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Why choose Nexo?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>All-in-one platform. Nexo’s comprehensive​​ product suite helps you get the most out of your crypto.
+                <br>
+                - Buy or top up 40+ cryptocurrencies in seconds
+                <br>
+                - Swap 300+ market pairs and get up to 0.5% back
+                <br>
+                - Earn compound interest on your crypto, paid out daily
+                <br>
+                - Borrow funds at rates starting at 0% APR in a few clicks
+                <br>
+                - Spend without selling your crypto with the Nexo Card
+                <br>
+                - Leverage your portfolio to grow your positions with the Nexo Booster
+                <br>
+                Buy crypto with your credit/debit card in seconds. 
+                <br>
+                Users from 200+ jurisdictions can buy crypto easily with card and earn up to 0.5% in crypto rewards per transaction. Once you top up assets you can swap between 300+ market pairs. You are sure to get the best rates from the top 10 crypto exchanges thanks to our Smart Routing System.
+                <br>
+                High-yield interest. 
+                <br>
+                Nexo offers up to 16% on in-demand cryptocurrencies, and 12% APR on stablecoins (such as USDT, USDC, and DAI) and FiatX savings (USDx, GBPx, and EUx). The interest you earn is compounded and it’s paid out daily. Top up your idle crypto on the Nexo platform and let it work for you.  
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What coins are accepted as collateral?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong><img src="https://support.nexo.io/hc/article_attachments/4402824464786/3d_coins.png" alt="nexo">
+                <br>
+                You can use the following crypto assets as collateral: BTC, ETH, XRP, LTC, XLM, BCH, EOS, LINK, TRX, DOT, ADA, DOGE, SOL, AVAX, MATIC, FTM, ATOM, UNI, AXS, Stablecoins, PAXG, NEXO, BNB, GALA, SUSHI, CRV, AAVE, MANA, SAND, NEAR, KSM, APE, 1INCH and MKR. Support for other major altcoins is coming later in 2022.
+                <br>
+                We have more than 40 applications from companies that want their tokens to be added as collateral. We are very particular about who we work with and give priority to projects with integrity and a significant impact on the ecosystem as a whole.
+                <br>
+                If you wish to see your favorite altcoin added among the collateral options, you can make a vote within its community or ask the team of the particular project to fill out our application form.
+                <br>
+                IMPORTANT! Please make sure to only transfer supported crypto assets over the respective Blockchain network supported by Nexo. Тransferring unsupported assets to your Nexo account will result in permanent loss.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        © 2022 Nexo
+      </div>
+      <div>
+        <ul class="footer">
+          <li>Help Center</li>
+          <li>Privacy Policy</li>
+          <li>Terms and Conditions</li>
+          <li>Loan Terms</li>
+          <li>Apply to List</li>
+        </ul>
+      </div>
+    </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+</body>
+</html>
